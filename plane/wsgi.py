@@ -13,3 +13,4 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE',
                       'plane.settings.production')
 
 application = get_wsgi_application()
+app = application
